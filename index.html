@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+    <title>Weather</title>
+  </head>
+  <body id="whole">
+    <div class=" container mt-2">
+    <div id="container" class="container mt-2" >
+      <div id="cos" class="mt-5">
+          <form id="search-form">
+            <input type="search"
+            placeholder="Enter city name..."
+            id="search-input"
+            required
+            autocomplete="off"
+            class="bg-transparent" 
+            />
+            <br>
+            <button id="search-button" class="bg-transparent">search</button>
+          </form>
+    </div>
+    </div>
+    <br>
+    <br>
+
+      <div  class="mb-5">
+        <p id="Location" class="jumbotron" style="font-size: 50px ; text-align: center;font-weight: bolder;font-family: 'Mulish', sans-serif; color:#ddeff0;text-shadow:4px 5px rgba(0,0,0,0.4);">________</p>
+      </div>
+
+      <div  style="text-align: center;" class="align-content-center mt-2">
+        <img id="image" style="width:70vw; height: auto;" src="./iconss/loading.gif" alt="null">
+      </div>
+
+      <div style="text-align: center;" class="" >
+        <span  id="temp" style="font-size:100px;color: #ddeff0;text-shadow:4px 5px rgba(0,0,0,0.4);">__</span> <span style="font-size: 50px;color: #ddeff0">&#176C</span>
+      </div>
+
+      <div style="text-align: center;">
+        <p  id="desc" class="h1" style="font-size: 30px; font-family: monospace;color: #64eda1;text-shadow:3px 2px rgba(0,0,0,0.4);"></p>
+      </div>
+      
+
+    </div>
+<br>
+
+<div id="last">
+  <p>@code-reaper08</p>
+</div>
+<div>
+  <p id="lastpo"><strong>powered by</strong> openweathermap.org</p>
+</div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>

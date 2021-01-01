@@ -1,0 +1,55 @@
+html{
+	height: 100%;
+}
+
+#whole{
+	background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+background-repeat: no-repeat; background-attachment: fixed;height: 100%;
+}
+
+
+#search-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+#search-button{
+	color:#e6ffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background:white;
+	border-radius: 5px;
+	margin-left: 5px;
+	padding:0px;
+	border:none;
+	background:none;
+	display: inline-block;
+	outline: none;
+}
+
+#search-input{
+	border-style: none;
+	outline: none;
+	color: white;
+	border-bottom:3px;
+}
+
+#last{
+	text-align: center;
+	color: white;
+	opacity: 50%;
+}
+
+#lastpo{
+	opacity: 70%;
+	text-align: center;
+	color: white;
+}
