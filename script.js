@@ -27,31 +27,31 @@ const getWeather=async(city)=>
 		tempvalue.textContent=Math.round(feels_like-273);
 		if (id<300 && id>200)
 			{
-				tempicon.src="./iconss/thunder.svg"
+				tempicon.src="./thunder.svg"
 			}
 			else if (id<400 && id>300)
 			{
-				tempicon.src="./iconss/cloudy.svg"
+				tempicon.src="./cloudy.svg"
 			}
 			else if (id<600 && id>500)
 			{
-				tempicon.src="./iconss/rainy-1.svg"
+				tempicon.src="./rainy-1.svg"
 			}
 			else if (id<700 && id>=600)
 			{
-				tempicon.src="./iconss/snowy-1.svg"
+				tempicon.src="./snowy-1.svg"
 			}
 			else if (id<800 && id>700)
 			{
-				tempicon.src="./iconss/mist.svg"
+				tempicon.src="./mist.svg"
 			}
 			else if (id==800)
 			{
-				tempicon.src="./iconss/day.svg"
+				tempicon.src="./day.svg"
 			}
 			else if (id>800)
 			{
-				tempicon.src="./iconss/cloudy-day-3.svg"
+				tempicon.src="./cloudy-day-3.svg"
 			}
 
 	}
@@ -95,31 +95,31 @@ window.addEventListener("load" ,()=>{
 			tempvalue.textContent=Math.round(feels_like-273);
 			if (id<300 && id>200)
 			{
-				tempicon.src="./iconss/thunder.svg"
+				tempicon.src="./thunder.svg"
 			}
 			else if (id<400 && id>300)
 			{
-				tempicon.src="./iconss/cloudy.svg"
+				tempicon.src="./cloudy.svg"
 			}
 			else if (id<600 && id>500)
 			{
-				tempicon.src="./iconss/rainy-1.svg"
+				tempicon.src="./rainy-1.svg"
 			}
 			else if (id<700 && id>600)
 			{
-				tempicon.src="./iconss/snowy-1.svg"
+				tempicon.src="./snowy-1.svg"
 			}
 			else if (id<800 && id>700)
 			{
-				tempicon.src="./iconss/mist.svg"
+				tempicon.src="./mist.svg"
 			}
 			else if (id==800)
 			{
-				tempicon.src="./iconss/day.svg"
+				tempicon.src="./day.svg"
 			}
 			else if (id>801)
 			{
-				tempicon.src="./iconss/cloudy-day-3.svg"
+				tempicon.src="./cloudy-day-3.svg"
 			}
 		})
 
